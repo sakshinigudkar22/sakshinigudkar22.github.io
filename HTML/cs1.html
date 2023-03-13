@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery Tour App</title>
+    <link rel="stylesheet" href="/public/CSS/cs1.css">
+    <script src="cs1.js"></script>
+    <link rel="Icon" href="/public/Icons/Logo Icon.svg">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="home.html"><img src="/public/Icons/Logo_label Blue.svg" alt="Logo" srcset=""> </a>
+        </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="about.html" target="_blank">Resume</a></li>
+            <li><a href="about.html" target="_self">About Me</a></li>
+            <li><a href="#project">Projects</a></li>
+        </ul>
+    </header>
+
+
+
+    <section class="display">
+        <div class="bgimg">
+            <div class="titles">
+                <p class="ttype">App Design</p>
+                <h1 class="thead">Art Gallery Tour App</h1>
+                <h3 class="tsubhead">Designing an immersive tour experience</h3>
+            </div>
+
+            <div class="title-box">
+                <div class="t1">
+                    <p class="tbhead">Project</p>
+                    <p class="tbshead">Passion Project</p>
+                </div>
+                <div class="t2">
+                    <p class="tbhead">My Role</p>
+                    <p class="tbshead">UI/UX Designer</p>
+                </div>
+                <div class="t3">
+                    <p class="tbhead">Duration</p>
+                    <p class="tbshead">8 weeks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="overview">
+        <h1>Overview</h1>
+        <p class="bodytext">As an artsy, I’ve always wondered what went through the artist’s brain while they created
+            their
+            artworks.
+            What was their interpretation of it? What did they want to convey?
+            These are the questions me and so many others ask when they are admiring an art piece.
+        </p>
+
+        <div class="quote">
+            <p class="quotetext">“A picture is worth thousand words.”</p>
+        </div>
+
+        <p class="bodytext">But how will the people know what those words were. An audio guide would definitely be an
+            answer to
+            that. And thus I started my quest to create an App for Audio Tours.
+            I took up this project as a part of Google’s UX Design Course. I’m more of an art enthusiast myself and
+            from my first ever visit to an Art Gallery I felt like the experience could have been much more
+            fulfilling. So I chose this prompt to create a compelling experience for Gallery visitors and myself.
+        </p>
+
+        <div class="prompt">
+            <p class="phead">Prompt :</p> <span></span>
+            <p class="ptext">Design a tour check-in app for an art gallery.</p>
+        </div>
+    </section>
+
+    <div class="cover">
+    </div>
+
+    <section class="activity">
+        <h1>Design Process</h1>
+        <img class="dpimg" src="/public/HTML/cs1.html/AGT_Img/Design Process.svg"
+                    alt="Design Proces">
+
+        <p class="bodytext">I’ve presented the case study in a linear fashion but I follow a lean approach towards designing. Sometimes I brainstorm a few ideas before I’ve conducted user research. It helps me to enter the problem more naturally. Or sometimes even when I’ve completed the research and I’m still prototyping, I constantly look for any new insights from potential users. 
+            I believe the process of designing is never ending because there’s no ‘Perfect’ design.
+        </p>
+
+        <img class="dpimgl"  src="/public/HTML/cs1.html/AGT_Img/Design Process Linear.svg"
+                    alt="Design Proces">
+    </section>
+
+    <section class="stage">
+        <h1>Empathize</h1>
+        <p class="subhead">
+            What motivates the user?
+        </p>
+
+        <div class="activity">
+            <h2>Online Survey</h2>
+
+            <p class="bodytext">I started the research with surveys to understand user perspective on Art Gallery
+                Visits.
+                I used Google Forms through which I was able to receive responses from art enthusiasts,
+                frequent art gallery visitors, artists and some art gallery staff.
+            </p>
+
+            <h2>Survey Results</h2>
+            <div class="imgtogether">
+
+                <img class="zoomable" src="/public/HTML/cs1.html/AGT_Img/AGT Survey Result Age & Gender.svg"
+                    alt="AGT Survey Result Age & Gender">
+
+                <div class="imgtogetherresults">
+                    <img class="zoomable" src="/public/Images/AGT_Img/AGT Survey Result Frequency of visit.svg"
+                        alt="AGT Survey Result Frequency">
+                    <img class="zoomable" src="/public/Images/AGT_Img/AGT Survey Result Source of information.svg"
+                        alt="AGT Survey Result Source of information">
+                </div>
+                <div class="imgtogetherresults">
+                    <img class="zoomable" src="/public/Images/AGT_Img/AGT Survey Result Reasons.svg"
+                        alt="AGT Survey Result Reason">
+                    <img class="zoomable" src="/public/Images/AGT_Img/AGT Survey Result Audio Tour.svg"
+                        alt="AGT Survey Result Tour">
+                </div>
+
+                <img class="zoomable res" src="/public/Images/AGT_Img/AGT Survey Result Expectations from tour.svg"
+                    alt="AGT Survey Result Expectations from tour">
+
+
+            </div>
+
+        </div>
+
+        <div class="activity">
+            <h2>1:1 Interviews</h2>
+            <p class="bodytext">The survey participants who were willing were interviewed.
+                I interviewed 6 users from distinct backgrounds to get a comprehensive understanding of users.
+                The interviews were semi-structured and included open-ended questions.
+            </p>
+
+            <div class="quotesbox">
+                <h2>Key Quotes from Interview</h2>
+                <div class="iqtogether">
+                    <img src="/public/Images/AGT_Img/qwoman1.svg" alt="frustrated woman">
+                    <p class="intquotes">
+                        “I keep reading every information card or boards but they only convey superficial facts
+                        and nothing about the painting or it’s artist. It feels bland.”
+                    </p>
+                </div>
+
+                <div class="iqtogether">
+                    <p class="intquotes">
+                        “The audio guides devices available are unhygienic and sometimes difficult to figure out.
+                        Usually most of the information is not available in my mother tongue.”
+                    </p>
+                    <img src="/public/Images/AGT_Img/qman1.svg" alt="frustrated woman">
+                </div>
+
+                <div class="iqtogether">
+                    <img src="/public/Images/AGT_Img/qwoman2.svg" alt="frustrated woman">
+                    <p class="intquotes">
+                        “Exploring all of the Art Gallery at once can be hectic and rushed
+                        due to time constraints.”
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="activity">
+            <h2>Competetive Analysis</h2>
+            <p class="subhead">
+                What have the competitors been up to?
+            </p>
+            <img class="ca" src="/public/Images/AGT_Img/AGT_Competitive Audit.png" alt="Competetive Audit">
+
+        </div>
+
+        <div class="activity">
+            <h2>Key Research Insights</h2>
+            <div class="points-container">
+                <div class="points">
+                    <div class="point">
+                        <p class="/public/public/Images/text">
+                            Users need deeper understanding about the artwork, its interpretation and the process.
+                        </p>
+                    </div>
+                    <div class="point">
+                        <p class="/public/public/Images/text">
+                            Busy individuals want to get the best experience within a time restricted duration.
+                        </p>
+                    </div>
+                    <div class="point">
+                        <p class="/public/public/Images/text">
+                            Most visitors worry about the hygiene when it comes to audio devices provided by the
+                            library.
+                        </p>
+                    </div>
+                    <div class="point">
+                        <p class="/public/public/Images/text">
+                            Visitors find it irritating when the tour guide rushes them off.
+                        </p>
+                    </div>
+                    <div class="point">
+                        <p class="/public/public/Images/text">
+                            It’s a challenge to get a good view of artwork when it’s crowded
+                        </p>
+                    </div>
+                    <div class="point">
+                        <p class="/public/public/Images/text">
+                            Since some areas in Gallery have bad connection visitors aren’t able to google information
+                            about
+                            artwork.
+                        </p>
+                    </div>
+                    <div class="point">
+                        <p class="/public/public/Images/text">
+                            Long booking process and queues are frustrating for users.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+    </section>
+
+    <section class="stage">
+        <h1>Define</h1>
+        <p class="subhead">
+            What to design?
+        </p>
+
+        <div class="activity">
+            <h2>Pain Points</h2>
+            <p class="bodytext">
+                I analyzed and synthesized the data found from the user research to define the pain points of users.
+            </p>
+            <div class="ppboxes">
+                <div class="b">
+                    <p class="pboxlg">
+                        Inadequate
+                        information
+                    </p>
+                    <p class="pboxsm">
+                        Visitors not only
+                        crave about knowing
+                        the artwork information
+                        but also the artist’s
+                        interpretation.
+                    </p>
+                </div>
+
+                <div class="b">
+                    <p class="pboxlg">
+                        No customized
+                        Tours
+                    </p>
+                    <p class="pboxsm">
+                        Some users prefer
+                        only specific genres of
+                        art while some have
+                        time constraints to
+                        explore the whole Gallery.
+                    </p>
+                </div>
+
+                <div class="b">
+                    <p class="pboxlg">
+                        Navigation
+
+                    </p>
+                    <p class="pboxsm">
+                        Users get overwhelmed
+                        and get lost in
+                        the Gallery.
+                    </p>
+                </div>
+
+                <div class="b">
+                    <p class="pboxlg">
+                        Accessibility
+                        Issues
+                    </p>
+                    <p class="pboxsm">
+                        Art Galleries struggle
+                        to be accessible.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="activity">
+            <h2>Personas</h2>
+            <div class="imgtogether">
+                <img src="/public/Images/AGT_Img/Persona 1.svg" alt="Persona for Art Gallery App">
+            </div>
+
+            <div class="imgtogether">
+                <img src="/public/Images/AGT_Img/Persona 2.svg" alt="Persona for Art Gallery App">
+            </div>
+
+
+            
+        </div>
+
+        <div class="activity">
+            <h2>Problem Statement</h2>
+
+            <div class="psbtog">
+                <div class="psb">
+                    <p class="psbtext">
+                        Jeet is an Art Enthusiast who needs the experience in Art Gallery to be rewarding and inclusive
+                        because
+                        he feels left out during Gallery Tours.
+                    </p>
+                </div>
+
+                <div class="psb">
+                    <p class="psbtext">
+                        Kruti is a busy professional who wants a customizable tour because she has limited time to visit
+                        the
+                        Art
+                        Gallery.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="activity">
+            <h2>Goal</h2>
+            <div class="gbox">
+                <p class="gtext">
+                    My goal was to create a customizable tour app which will provide structure to their visit but give
+                    them
+                    enough freedom to explore the Gallery at their own pace. The goal also included adding features to
+                    increase user engagement and make the experience immersive.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="stage">
+        <h1>Ideate</h1>
+        <p class="subhead">
+            How to design?
+        </p>
+
+        <div class="activity">
+            <h2>How Might We?</h2>
+            <div class="hmwbox">
+                <p class="hmwsmall">
+                    How might we?
+                </p>
+                <p class="hmwtext">
+                    Create an
+                    engaging and informative
+                    Tour experience for
+                    Art Gallery visitors?
+                </p>
+            </div>
+        </div>
+
+        
+
+        <h2>Storyboard</h2>
+        <p class="bodytext">
+            I created storyboards to ideate the ways in which the user might interact with the app. Storyboards were
+            instrumental in giving a picture of how the app might be functional in it’s ideal place of usage.
+        </p>
+        <div class="imgtogether1">
+            <img src="/public/Images/AGT_Img/Storyboard.svg" alt="Storyboard for Art Gallery App">
+            <img src="/public/Images/AGT_Img/Storyboard 2.svg" alt="Storyboard for Art Gallery App">
+        </div>
+
+        <h2>Crazy 8s</h2>
+        <p class="bodytext">
+            The Crazy 8s exercise helped to generate a wide variety of solutions. I was able to spontaneously think and
+            sketch the possible solutions for the problem statement.
+            During this stage, I wondered if a selection assistant would help the confused visitors and give them
+            freedom to choose artworks according to their taste.
+        </p>
+        <div class="imgtogether1">
+            <img src="/public/Images/AGT_Img/Crazy 8.svg" alt="Crazy 8s for Art Gallery App">
+        </div>
+
+        <h2>Journey Map</h2>
+        <p class="bodytext">
+            Kruti’s journey revealed the improvement opportunities in the Gallery Visit experience. It aided to
+            visualize the roadblocks in the user’s journey and ways to remove them. It helped me to move through the
+            process from the user’s perspective and identify their wants and needs.
+        </p>
+        <div class="imgtogether1">
+            <img src="/public/Images/AGT_Img/Journey Map.svg" alt="Journey Map for Art Gallery App">
+        </div>
+    </section>
+
+    <section class="stage">
+        <h1>Design</h1>
+
+        <h2>Paper Wireframes</h2>
+        <p class="bodytext">
+            I made initial paper wireframes based on the user pain points. I created various iteration of the same
+            screen and evaluated the best one that solved user problem. Paper wireframes gave a rough sketch of what was
+            to be included into the digital wireframes.
+        </p>
+        <div class="imgtogether1">
+            <img src="/public/Images/AGT_Img/Paper Wireframes.svg" alt="Paper Wireframes for Art Gallery App">
+            <img src="/public/Images/AGT_Img/Paper Wireframes 2.svg" alt="Paper Wireframes for Art Gallery App">
+            <img src="/public/Images/AGT_Img/Paper Wireframes 3.svg" alt="Paper Wireframes for Art Gallery App">
+        </div>
+
+        <h2>Digital Wireframes</h2>
+        <p class="bodytext">
+            Using the Paper Wireframes as reference I created Digital Wireframes.
+        </p>
+        <div class="imgtogether1">
+            <img src="/public/Images/AGT_Img/Digital Wireframes.svg" alt="Digital Wireframes for Art Gallery App">
+        </div>
+
+    </section>
+
+    <section class="stage">
+        <h1>Test</h1>
+        <p class="subhead">
+            Is it effective?
+        </p>
+
+        <h2>Usability Test</h2>
+        <p class="bodytext">
+            After conducting the usability study with 6 participants I became aware of the following shortcomings in the
+            design.
+        </p>
+        <div class="imgtogether1">
+            <img src="/public/Images/AGT_Img/Usability Test.svg" alt="Usability Test">
+
+        </div>
+
+        <h2>Observation Sheets</h2>
+        <div class="imgtogether1">
+            <img src="/public/Images/AGT_Img/Observation Sheet.svg" alt="Usability Test Observation Sheet">
+
+        </div>
+
+        <h2>Key Findings</h2>
+        <div class="points">
+            <div class="point">
+                <p class="/public/public/Images/text">
+                    Difficult Terminology
+                </p>
+            </div>
+            <div class="point">
+                <p class="/public/public/Images/text">
+                    Unnoticeable CTA
+                </p>
+            </div>
+            <div class="point">
+                <p class="/public/public/Images/text">
+                    Filter Options are inadequate.
+                </p>
+            </div>
+            <div class="point">
+                <p class="/public/public/Images/text">
+                    Inability to retrieve a curated tour.
+                </p>
+            </div>
+        </div>
+
+        <h2>Suggestions</h2>
+        <p class="bodytext">
+            A few participants also had some feature requests and suggestions :
+        </p>
+        <div class="points">
+            <div class="point">
+                <p class="/public/public/Images/text">
+                    Provision to Save and Share a curated tour.
+                </p>
+            </div>
+            <div class="point">
+                <p class="/public/public/Images/text">
+                    Customization for time duration of the tour.
+                </p>
+            </div>
+        </div>
+
+        <h2>Iterations</h2>
+        <p class="bodytext">
+            I went back to the designs and made a few iterations in accordance to the insights and recommendations.
+        </p>
+
+        <div class="imgtogether1">
+            <img src="/public/Images/AGT_Img/Iteration1.svg" alt="Iteration">
+            <img src="/public/Images/AGT_Img/Iteration2.svg" alt="Iteration">
+            <img src="/public/Images/AGT_Img/Iteration3.svg" alt="Iteration">
+
+        </div>
+    </section>
+
+    <section class="stage">
+        <h1>High Fidelity Wireframes</h1>
+        <div class="activity">
+            <h2>Moodboard</h2>
+            <div class="imgtogether1">
+                <img src="/public/Images/AGT_Img/Mood.svg" alt="Usability Test">
+
+            </div>
+        </div>
+
+
+        <div class="activity">
+            <h2>High Fidelity Prototypes </h2>
+            <div class="features">
+                <div class="featurel">
+                    <video autoplay controls loop src="/Videos/Create Tour Long.mp4"></video>
+                    <div class="bgg">
+                        <p class="bodytext_fea">
+                            Creating a Tour based on your taste made easy!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="featurer">
+                    <video autoplay controls loop src="/Videos/Curate Tour.mp4"></video>
+                    <div class="bgg">
+                        <p class="bodytext_fea">
+                            Choose a Curated Tour which suits your interest.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="featurel">
+                    <video autoplay controls loop src="/Videos/Selection Assistant.mp4"></video>
+                    <div class="bgg">
+                        <p class="bodytext_fea">
+                            Selection Assistant at your service.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="featurer">
+                    <video autoplay controls loop src="/Videos/Saved Tours & Artworks.mp4"></video>
+                    <div class="bgg">
+                        <p class="bodytext_fea">
+                            Save your favourite tours and artworks.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="featurel">
+                    <video autoplay controls loop src="/Videos/Search Artwork.mp4"></video>
+                    <div class="bgg">
+                        <p class="bodytext_fea">
+                            Quickly search for the artwork in the gallery.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="featurer">
+                    <video autoplay controls loop src="/Videos/ASL Vid.mp4"></video>
+                    <div class="bgg">
+                        <p class="bodytext_fea">
+                            ASL Video explanations for inclusivity.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="featurel">
+                    <video autoplay controls loop src="/Videos/Book Tickets.mp4"></video>
+                    <div class="bgg">
+                        <p class="bodytext_fea">
+                            Avoid long queues and book tickets easily .
+                        </p>
+                    </div>
+                </div>
+
+                <div class="featurer">
+                    <video autoplay controls loop src="/Videos/Curated Tour Listen Option.mp4"></video>
+                    <div class="bgg">
+                        <p class="bodytext_fea">
+                            Forget about crowds and get lost in the artwork.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+    <section class="stage">
+        <h1>Reflection</h1>
+        <p class="subhead">
+            Is it effective?
+        </p>
+
+        <div class="activity">
+            <h2>Impact</h2>
+            <div class="ibox">
+                <p class="itext">
+                    My goal was to create a customizable tour app which will provide structure to their visit but give
+                    them
+                    enough freedom to explore the Gallery at their own pace. The goal also included adding features to
+                    increase user engagement and make the experience immersive.
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="activity">
+            <h2>High Fidelity Prototypes </h2>
+            <p class="bodytext">
+                The app is instrumental in making art accessible to all the art gallery visitors. It makes the
+                experience of
+                Art Gallery surreal and informative.
+
+                One quote from peer feedback:
+            </p>
+        </div>
+
+
+        <div class="activity">
+            <h2>What I learnt</h2>
+            <p class="bodytext">
+                I’m an art enthusiast myself which is why I enjoyed working on this case study. Since this was my first
+                case
+                study for the Google UX Design Course, I got the practically explore the field of UX. I got to
+                experience
+                how tightly knitted research and design phase is and how small iterations can have a large impact on
+                people’s life.
+            </p>
+        </div>
+
+
+
+        <div class="activity">
+            <h2>Next Steps</h2>
+            <p class="bodytext">
+                Although I had a limited time period to complete the assignments I did my best to focus on the Tour &
+                Booking modules of the app. I would love to work more on this project. Some other features which can be
+                considered for next iterations of the project are:
+            </p>
+            <div class="points">
+                <div class="point">
+                    <p class="/public/public/Images/text">
+                        Ability to enlarge the text size.
+                    </p>
+                </div>
+                <div class="point">
+                    <p class="/public/public/Images/text">
+                        Including Visitors Interpretations of each artwork.
+                    </p>
+                </div>
+                <div class="point">
+                    <p class="/public/public/Images/text">
+                        Including Augmented Reality to the app to make it more interactive.
+                    </p>
+                </div>
+                <div class="point">
+                    <p class="/public/public/Images/text">
+                        Real-time traffic tracking on Map to avoid crowds.
+                    </p>
+                </div>
+                <div class="point">
+                    <p class="/public/public/Images/text">
+                        Tours curated by people who already visited the museum.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="project">
+        <p class="text-lg">
+            Checkout my Projects
+        </p>
+
+        <div class="CS">
+            <div class="CSL">
+                <img src="/public/Images/PerFit Clothing Website Cover.svg" alt="PerFit Clothing Website Cover">
+            </div>
+            <div class="CSR">
+                <div class="CSRtext">
+                    <p class="cstype">Responsive Web Design</p>
+                    <h1 class="csheader">PerFit : Clothing Website</h1>
+                    <p class="cssubheader">PerFect Fit with VR</p>
+                </div>
+                <a href="/public/HTML/cs2.html">
+                    <div class="btn-holder">
+                        <button class="btn_lg">
+                            <span>View Casestudy</span>
+                        </button>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="CS">
+            <div class="CSL">
+                <img src="/public/Images/Let's Serve Volunteering App Cover.svg" alt="Let's Serve Volunteering App Cover">
+            </div>
+            <div class="CSR">
+                <div class="CSRtext">
+                    <p class="cstype">App Design</p>
+                    <h1 class="csheader">Let's Serve : Volunteering App</h1>
+                    <p class="cssubheader">Finding the right opportunity for you</p>
+                </div>
+                <a href="/public/HTML/cs3.html">
+                    <div class="btn-holder">
+                        <button class="btn_lg">
+                            <span>View Casestudy</span>
+                        </button>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="connect">
+        <p class="text-sm">
+            Get in touch for opportunities or just pass along your comments.
+        </p>
+
+        <div class="btn-holder">
+            <button class="btn_lg">
+                <span>Send me an email</span>
+            </button>
+        </div>
+        <p class="text-sm">
+            Thanks for stopping by &#x1F64B; 
+        </p>
+    </section>
+
+    <footer>
+        <div class="fup">
+            <p class="ftext-lg">Let's Connect</p>
+            <p class="ftext-sm">You can find me through my social accounts below.</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/sakshi-nigudkar-a5a85a269/"><img src="/public/Icons/LinkedIn.svg" alt="LinkedIn Link"></a>
+                            <a href="https://www.instagram.com/sakshiuxing/"><img src="/public/Icons/Instagram.svg" alt="Instagram Link"></a>
+                            <a href="https://www.behance.net/sakshiuxing"><img src="/public/Icons/Behance.svg" alt="Behance Link"></a>
+                            <a href="https://dribbble.com/sakshiuxing"><img src="/public/Icons/Dribbble Logo.svg" alt="Dribbble Link"></a>
+                            <a href=""><img src="/public/Icons/Medium.svg" alt="Medium Link"></a>
+                            <a href=""><img src="/public/Icons/Facebook.svg" alt="Facebook Link"></a>
+            </div>
+        </div>
+
+        <div class="fdown">
+            <p class="text-xs">Created with love</p>
+            <p class="text-xxs">Copyright ©2022 Sakshi Nigudkar. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
